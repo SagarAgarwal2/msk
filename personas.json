@@ -1,0 +1,178 @@
+{
+  "description": "8 Base Persona Templates for FMCG Product Launch Simulation - Women's Protein Drink (India Market)",
+  "totalPersonasGenerated": 500,
+  "generationMethod": "Each base template is replicated ~62 times with small random variations in age and trait values",
+  "basePersonas": [
+    {
+      "id": 1,
+      "name": "Urban Health Enthusiast",
+      "ageRange": "25-45",
+      "cityType": "Urban",
+      "incomeLevel": "High",
+      "healthConsciousness": 9,
+      "priceSensitivity": 3,
+      "brandLoyalty": 7,
+      "marketWeight": 15,
+      "description": "Highly health-conscious urban women with high disposable income. Very focused on quality and wellness. Less price-sensitive, values premium products.",
+      "keyBehaviors": [
+        "Actively seeks sugar-free and organic options",
+        "Willing to pay premium for quality",
+        "Influenced by health benefits over price",
+        "Prefers brands with strong health credentials"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Working Professional",
+      "ageRange": "28-40",
+      "cityType": "Urban",
+      "incomeLevel": "Medium",
+      "healthConsciousness": 7,
+      "priceSensitivity": 6,
+      "brandLoyalty": 5,
+      "marketWeight": 20,
+      "description": "Largest segment. Busy working women balancing career and health. Moderately price-conscious. Seeks convenience and value.",
+      "keyBehaviors": [
+        "Time-constrained, values convenience",
+        "Moderate budget for health products",
+        "Open to trying new brands",
+        "Influenced by peer recommendations"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Budget-Conscious Mother",
+      "ageRange": "30-45",
+      "cityType": "Tier-2",
+      "incomeLevel": "Medium",
+      "healthConsciousness": 6,
+      "priceSensitivity": 8,
+      "marketWeight": 18,
+      "description": "Mothers from Tier-2 cities managing family health on a budget. Highly price-sensitive but concerned about family nutrition.",
+      "keyBehaviors": [
+        "Compares prices carefully before purchase",
+        "Values bulk deals and discounts",
+        "Family nutrition is priority",
+        "Loyal to value-for-money brands"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Fitness-Focused Millennial",
+      "ageRange": "22-35",
+      "cityType": "Urban",
+      "incomeLevel": "High",
+      "healthConsciousness": 10,
+      "priceSensitivity": 2,
+      "brandLoyalty": 6,
+      "marketWeight": 12,
+      "description": "Gym-going, fitness-obsessed young women. Extremely health-conscious. Price is secondary to quality and results.",
+      "keyBehaviors": [
+        "Researches ingredients thoroughly",
+        "Follows fitness influencers",
+        "Willing to invest in premium fitness products",
+        "Active on social media for health tips"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Traditional Homemaker",
+      "ageRange": "35-55",
+      "cityType": "Tier-2",
+      "incomeLevel": "Low",
+      "healthConsciousness": 5,
+      "priceSensitivity": 9,
+      "brandLoyalty": 8,
+      "marketWeight": 15,
+      "description": "Traditional women from smaller cities. Very price-sensitive. Prefers familiar, trusted brands. Slower to adopt new products.",
+      "keyBehaviors": [
+        "Highly price-conscious",
+        "Sticks to trusted brands",
+        "Needs strong word-of-mouth recommendations",
+        "Skeptical of marketing claims"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Young Student",
+      "ageRange": "18-25",
+      "cityType": "Urban",
+      "incomeLevel": "Low",
+      "healthConsciousness": 4,
+      "priceSensitivity": 10,
+      "brandLoyalty": 3,
+      "marketWeight": 10,
+      "description": "College students and young adults with limited budget. Extremely price-sensitive. Low health consciousness but open to trendy products.",
+      "keyBehaviors": [
+        "Very limited budget",
+        "Influenced by social media trends",
+        "Seeks affordable options",
+        "Will switch brands for better deals"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Senior Citizen",
+      "ageRange": "55-70",
+      "cityType": "Tier-2",
+      "incomeLevel": "Medium",
+      "healthConsciousness": 8,
+      "priceSensitivity": 7,
+      "brandLoyalty": 9,
+      "marketWeight": 6,
+      "description": "Older women focused on health maintenance. Health-conscious but also price-aware. Extremely loyal to trusted brands.",
+      "keyBehaviors": [
+        "Values health products for aging",
+        "Needs clear health benefits",
+        "Extremely brand loyal once convinced",
+        "Cautious about trying new products"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Corporate Executive",
+      "ageRange": "32-50",
+      "cityType": "Urban",
+      "incomeLevel": "High",
+      "healthConsciousness": 7,
+      "priceSensitivity": 4,
+      "brandLoyalty": 6,
+      "marketWeight": 4,
+      "description": "High-earning corporate leaders. Values premium positioning and quality. Time-poor, seeks convenience.",
+      "keyBehaviors": [
+        "Willing to pay for premium products",
+        "Values brand reputation",
+        "Time-constrained, seeks convenience",
+        "Influenced by executive wellness trends"
+      ]
+    }
+  ],
+  "attributeDefinitions": {
+    "healthConsciousness": {
+      "scale": "1-10",
+      "definition": "How much the persona prioritizes health and wellness in purchasing decisions"
+    },
+    "priceSensitivity": {
+      "scale": "1-10",
+      "definition": "How sensitive the persona is to price changes (10 = extremely price-sensitive)"
+    },
+    "brandLoyalty": {
+      "scale": "1-10",
+      "definition": "How likely the persona is to stick with known brands vs trying new ones (10 = extremely loyal)"
+    },
+    "marketWeight": {
+      "scale": "percentage",
+      "definition": "Proportion of the target market this persona represents"
+    }
+  },
+  "incomeMapping": {
+    "Low": "< ₹3 lakhs/year",
+    "Medium": "₹3-8 lakhs/year",
+    "High": "> ₹8 lakhs/year"
+  },
+  "cityTypeMapping": {
+    "Urban": "Metro cities (Mumbai, Delhi, Bangalore, etc.)",
+    "Tier-2": "Smaller cities (Indore, Jaipur, Lucknow, etc.)",
+    "Rural": "Villages and small towns"
+  }
+}

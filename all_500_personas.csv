@@ -1,0 +1,501 @@
+ID,Persona Name,Age,City Type,Income Level,Health Consciousness,Price Sensitivity,Brand Loyalty,Market Weight
+1,"Urban Health Enthusiast",45,Urban,High,8.86,2.94,7.49,15.00%
+2,"Urban Health Enthusiast",29,Urban,High,9.65,2.31,7.28,15.00%
+3,"Urban Health Enthusiast",35,Urban,High,9.40,2.79,7.52,15.00%
+4,"Urban Health Enthusiast",25,Urban,High,8.16,2.82,7.41,15.00%
+5,"Urban Health Enthusiast",29,Urban,High,9.77,2.87,7.70,15.00%
+6,"Urban Health Enthusiast",29,Urban,High,8.56,2.09,7.66,15.00%
+7,"Urban Health Enthusiast",28,Urban,High,9.08,2.89,6.63,15.00%
+8,"Urban Health Enthusiast",27,Urban,High,8.63,2.44,7.36,15.00%
+9,"Urban Health Enthusiast",29,Urban,High,9.94,2.30,6.81,15.00%
+10,"Urban Health Enthusiast",38,Urban,High,9.20,3.45,6.83,15.00%
+11,"Urban Health Enthusiast",29,Urban,High,8.02,3.84,7.08,15.00%
+12,"Urban Health Enthusiast",28,Urban,High,8.73,2.80,6.74,15.00%
+13,"Urban Health Enthusiast",29,Urban,High,9.82,3.51,7.92,15.00%
+14,"Urban Health Enthusiast",39,Urban,High,9.19,2.26,6.07,15.00%
+15,"Urban Health Enthusiast",33,Urban,High,9.20,3.06,6.31,15.00%
+16,"Urban Health Enthusiast",45,Urban,High,9.30,3.99,7.52,15.00%
+17,"Urban Health Enthusiast",31,Urban,High,8.74,2.58,6.69,15.00%
+18,"Urban Health Enthusiast",27,Urban,High,9.92,3.42,7.57,15.00%
+19,"Urban Health Enthusiast",26,Urban,High,9.20,3.38,7.55,15.00%
+20,"Urban Health Enthusiast",44,Urban,High,9.67,2.38,6.19,15.00%
+21,"Urban Health Enthusiast",41,Urban,High,8.54,2.09,7.33,15.00%
+22,"Urban Health Enthusiast",43,Urban,High,8.37,2.61,6.41,15.00%
+23,"Urban Health Enthusiast",35,Urban,High,9.37,2.12,6.81,15.00%
+24,"Urban Health Enthusiast",38,Urban,High,8.11,2.21,6.71,15.00%
+25,"Urban Health Enthusiast",41,Urban,High,9.39,2.79,7.59,15.00%
+26,"Urban Health Enthusiast",25,Urban,High,8.02,2.46,6.19,15.00%
+27,"Urban Health Enthusiast",41,Urban,High,8.45,2.49,6.67,15.00%
+28,"Urban Health Enthusiast",31,Urban,High,9.72,2.64,7.99,15.00%
+29,"Urban Health Enthusiast",43,Urban,High,9.63,3.02,7.44,15.00%
+30,"Urban Health Enthusiast",40,Urban,High,8.28,3.69,7.09,15.00%
+31,"Urban Health Enthusiast",44,Urban,High,8.53,2.09,6.48,15.00%
+32,"Urban Health Enthusiast",38,Urban,High,9.79,3.06,6.95,15.00%
+33,"Urban Health Enthusiast",41,Urban,High,8.36,3.95,7.05,15.00%
+34,"Urban Health Enthusiast",32,Urban,High,9.92,2.52,7.13,15.00%
+35,"Urban Health Enthusiast",42,Urban,High,8.15,2.61,7.02,15.00%
+36,"Urban Health Enthusiast",38,Urban,High,8.61,2.28,7.80,15.00%
+37,"Urban Health Enthusiast",33,Urban,High,9.97,3.15,6.54,15.00%
+38,"Urban Health Enthusiast",29,Urban,High,8.72,2.13,7.72,15.00%
+39,"Urban Health Enthusiast",32,Urban,High,9.83,3.65,6.17,15.00%
+40,"Urban Health Enthusiast",45,Urban,High,9.27,2.28,6.27,15.00%
+41,"Urban Health Enthusiast",27,Urban,High,8.89,2.04,7.00,15.00%
+42,"Urban Health Enthusiast",35,Urban,High,8.30,2.67,7.56,15.00%
+43,"Urban Health Enthusiast",28,Urban,High,8.29,2.10,7.54,15.00%
+44,"Urban Health Enthusiast",38,Urban,High,9.94,2.29,7.13,15.00%
+45,"Urban Health Enthusiast",44,Urban,High,8.03,3.19,6.69,15.00%
+46,"Urban Health Enthusiast",36,Urban,High,8.37,3.11,7.73,15.00%
+47,"Urban Health Enthusiast",39,Urban,High,8.79,2.50,6.89,15.00%
+48,"Urban Health Enthusiast",30,Urban,High,9.50,2.70,6.87,15.00%
+49,"Urban Health Enthusiast",45,Urban,High,9.36,2.88,6.80,15.00%
+50,"Urban Health Enthusiast",29,Urban,High,9.17,2.44,6.51,15.00%
+51,"Urban Health Enthusiast",38,Urban,High,8.81,2.47,7.37,15.00%
+52,"Urban Health Enthusiast",30,Urban,High,9.52,3.52,6.55,15.00%
+53,"Urban Health Enthusiast",42,Urban,High,9.60,2.41,6.64,15.00%
+54,"Urban Health Enthusiast",41,Urban,High,9.39,2.08,7.53,15.00%
+55,"Urban Health Enthusiast",34,Urban,High,8.13,2.69,7.66,15.00%
+56,"Urban Health Enthusiast",39,Urban,High,9.62,3.21,6.89,15.00%
+57,"Urban Health Enthusiast",25,Urban,High,8.55,2.37,6.98,15.00%
+58,"Urban Health Enthusiast",45,Urban,High,9.92,2.15,7.31,15.00%
+59,"Urban Health Enthusiast",27,Urban,High,8.05,2.35,6.24,15.00%
+60,"Urban Health Enthusiast",28,Urban,High,9.22,2.27,7.75,15.00%
+61,"Urban Health Enthusiast",35,Urban,High,9.44,3.79,6.05,15.00%
+62,"Urban Health Enthusiast",29,Urban,High,8.50,2.35,7.07,15.00%
+63,"Working Professional",29,Urban,Medium,7.58,6.22,4.13,20.00%
+64,"Working Professional",34,Urban,Medium,6.53,6.01,5.82,20.00%
+65,"Working Professional",36,Urban,Medium,6.13,6.73,4.17,20.00%
+66,"Working Professional",36,Urban,Medium,7.99,6.03,5.78,20.00%
+67,"Working Professional",32,Urban,Medium,6.36,6.86,5.35,20.00%
+68,"Working Professional",39,Urban,Medium,6.86,5.78,4.97,20.00%
+69,"Working Professional",39,Urban,Medium,6.22,6.39,4.80,20.00%
+70,"Working Professional",38,Urban,Medium,7.25,6.68,4.32,20.00%
+71,"Working Professional",40,Urban,Medium,6.05,6.48,5.19,20.00%
+72,"Working Professional",39,Urban,Medium,6.81,5.10,5.78,20.00%
+73,"Working Professional",28,Urban,Medium,6.89,6.74,5.03,20.00%
+74,"Working Professional",32,Urban,Medium,7.31,6.87,5.14,20.00%
+75,"Working Professional",35,Urban,Medium,6.21,5.62,5.79,20.00%
+76,"Working Professional",31,Urban,Medium,7.22,5.54,5.58,20.00%
+77,"Working Professional",28,Urban,Medium,7.94,5.02,5.45,20.00%
+78,"Working Professional",30,Urban,Medium,7.43,6.38,5.60,20.00%
+79,"Working Professional",38,Urban,Medium,6.46,6.97,5.03,20.00%
+80,"Working Professional",32,Urban,Medium,7.88,6.01,4.83,20.00%
+81,"Working Professional",31,Urban,Medium,6.11,5.05,5.55,20.00%
+82,"Working Professional",35,Urban,Medium,6.75,6.36,4.11,20.00%
+83,"Working Professional",38,Urban,Medium,7.75,6.77,4.66,20.00%
+84,"Working Professional",31,Urban,Medium,7.92,6.98,5.41,20.00%
+85,"Working Professional",37,Urban,Medium,7.04,6.73,4.80,20.00%
+86,"Working Professional",32,Urban,Medium,7.69,5.13,4.73,20.00%
+87,"Working Professional",33,Urban,Medium,7.98,6.85,5.94,20.00%
+88,"Working Professional",32,Urban,Medium,7.65,6.58,4.92,20.00%
+89,"Working Professional",32,Urban,Medium,7.14,5.75,5.15,20.00%
+90,"Working Professional",32,Urban,Medium,7.57,5.26,5.08,20.00%
+91,"Working Professional",35,Urban,Medium,7.12,6.10,5.06,20.00%
+92,"Working Professional",31,Urban,Medium,7.01,5.35,4.54,20.00%
+93,"Working Professional",32,Urban,Medium,7.35,5.59,5.01,20.00%
+94,"Working Professional",37,Urban,Medium,6.79,5.87,5.33,20.00%
+95,"Working Professional",36,Urban,Medium,6.88,5.08,4.35,20.00%
+96,"Working Professional",29,Urban,Medium,6.26,6.07,4.50,20.00%
+97,"Working Professional",31,Urban,Medium,6.91,5.27,5.58,20.00%
+98,"Working Professional",38,Urban,Medium,6.71,6.44,4.21,20.00%
+99,"Working Professional",38,Urban,Medium,7.80,5.46,5.96,20.00%
+100,"Working Professional",30,Urban,Medium,6.38,6.93,5.53,20.00%
+101,"Working Professional",32,Urban,Medium,7.12,5.33,5.59,20.00%
+102,"Working Professional",32,Urban,Medium,7.63,5.15,5.19,20.00%
+103,"Working Professional",35,Urban,Medium,6.77,6.91,4.38,20.00%
+104,"Working Professional",33,Urban,Medium,7.01,5.63,5.35,20.00%
+105,"Working Professional",30,Urban,Medium,7.44,5.12,4.64,20.00%
+106,"Working Professional",38,Urban,Medium,6.86,6.99,5.40,20.00%
+107,"Working Professional",35,Urban,Medium,7.27,5.81,4.28,20.00%
+108,"Working Professional",36,Urban,Medium,7.03,5.25,4.36,20.00%
+109,"Working Professional",37,Urban,Medium,6.26,6.12,4.78,20.00%
+110,"Working Professional",34,Urban,Medium,7.86,6.01,5.74,20.00%
+111,"Working Professional",33,Urban,Medium,6.15,6.72,4.24,20.00%
+112,"Working Professional",38,Urban,Medium,6.39,6.46,5.44,20.00%
+113,"Working Professional",28,Urban,Medium,6.51,6.40,5.71,20.00%
+114,"Working Professional",29,Urban,Medium,6.93,5.53,5.71,20.00%
+115,"Working Professional",33,Urban,Medium,6.31,6.84,5.08,20.00%
+116,"Working Professional",34,Urban,Medium,6.08,5.61,4.86,20.00%
+117,"Working Professional",40,Urban,Medium,6.10,6.43,5.55,20.00%
+118,"Working Professional",38,Urban,Medium,6.94,6.51,5.56,20.00%
+119,"Working Professional",31,Urban,Medium,6.65,5.98,5.45,20.00%
+120,"Working Professional",30,Urban,Medium,6.85,5.56,4.32,20.00%
+121,"Working Professional",31,Urban,Medium,6.31,5.79,5.47,20.00%
+122,"Working Professional",39,Urban,Medium,6.80,5.44,4.08,20.00%
+123,"Working Professional",29,Urban,Medium,6.76,6.34,4.45,20.00%
+124,"Working Professional",31,Urban,Medium,7.79,6.20,5.73,20.00%
+125,"Budget-Conscious Mother",33,Tier-2,Medium,6.57,7.42,3.23,18.00%
+126,"Budget-Conscious Mother",45,Tier-2,Medium,6.91,8.40,4.80,18.00%
+127,"Budget-Conscious Mother",32,Tier-2,Medium,6.53,8.54,3.85,18.00%
+128,"Budget-Conscious Mother",33,Tier-2,Medium,6.52,8.61,3.89,18.00%
+129,"Budget-Conscious Mother",40,Tier-2,Medium,5.25,8.60,4.23,18.00%
+130,"Budget-Conscious Mother",38,Tier-2,Medium,6.48,8.97,3.25,18.00%
+131,"Budget-Conscious Mother",32,Tier-2,Medium,6.22,8.65,3.90,18.00%
+132,"Budget-Conscious Mother",37,Tier-2,Medium,6.56,7.45,3.76,18.00%
+133,"Budget-Conscious Mother",40,Tier-2,Medium,5.70,8.15,3.48,18.00%
+134,"Budget-Conscious Mother",33,Tier-2,Medium,6.92,8.03,4.95,18.00%
+135,"Budget-Conscious Mother",45,Tier-2,Medium,5.07,8.78,3.28,18.00%
+136,"Budget-Conscious Mother",45,Tier-2,Medium,6.27,7.38,4.84,18.00%
+137,"Budget-Conscious Mother",40,Tier-2,Medium,5.04,8.51,3.97,18.00%
+138,"Budget-Conscious Mother",44,Tier-2,Medium,5.14,8.23,4.13,18.00%
+139,"Budget-Conscious Mother",38,Tier-2,Medium,5.22,8.16,4.18,18.00%
+140,"Budget-Conscious Mother",45,Tier-2,Medium,6.68,8.51,4.05,18.00%
+141,"Budget-Conscious Mother",33,Tier-2,Medium,5.26,7.11,3.45,18.00%
+142,"Budget-Conscious Mother",34,Tier-2,Medium,5.73,8.80,4.37,18.00%
+143,"Budget-Conscious Mother",45,Tier-2,Medium,5.51,7.31,4.20,18.00%
+144,"Budget-Conscious Mother",45,Tier-2,Medium,5.02,7.66,4.45,18.00%
+145,"Budget-Conscious Mother",35,Tier-2,Medium,6.76,7.02,3.75,18.00%
+146,"Budget-Conscious Mother",43,Tier-2,Medium,6.54,7.45,3.71,18.00%
+147,"Budget-Conscious Mother",40,Tier-2,Medium,5.33,7.63,4.44,18.00%
+148,"Budget-Conscious Mother",44,Tier-2,Medium,6.43,8.78,4.07,18.00%
+149,"Budget-Conscious Mother",37,Tier-2,Medium,5.03,8.67,4.42,18.00%
+150,"Budget-Conscious Mother",41,Tier-2,Medium,6.29,7.19,3.89,18.00%
+151,"Budget-Conscious Mother",42,Tier-2,Medium,5.31,7.29,4.34,18.00%
+152,"Budget-Conscious Mother",42,Tier-2,Medium,5.45,8.41,4.95,18.00%
+153,"Budget-Conscious Mother",37,Tier-2,Medium,5.22,8.80,3.39,18.00%
+154,"Budget-Conscious Mother",33,Tier-2,Medium,6.97,8.98,3.46,18.00%
+155,"Budget-Conscious Mother",39,Tier-2,Medium,5.93,8.36,4.97,18.00%
+156,"Budget-Conscious Mother",42,Tier-2,Medium,6.01,7.96,4.66,18.00%
+157,"Budget-Conscious Mother",42,Tier-2,Medium,5.64,8.63,3.14,18.00%
+158,"Budget-Conscious Mother",30,Tier-2,Medium,5.31,7.47,4.31,18.00%
+159,"Budget-Conscious Mother",37,Tier-2,Medium,5.10,8.07,3.50,18.00%
+160,"Budget-Conscious Mother",30,Tier-2,Medium,6.11,7.34,3.95,18.00%
+161,"Budget-Conscious Mother",45,Tier-2,Medium,5.77,7.17,3.82,18.00%
+162,"Budget-Conscious Mother",45,Tier-2,Medium,5.16,7.40,3.92,18.00%
+163,"Budget-Conscious Mother",30,Tier-2,Medium,5.56,7.63,3.99,18.00%
+164,"Budget-Conscious Mother",33,Tier-2,Medium,6.85,8.68,4.27,18.00%
+165,"Budget-Conscious Mother",37,Tier-2,Medium,5.97,7.82,3.35,18.00%
+166,"Budget-Conscious Mother",35,Tier-2,Medium,6.08,8.62,4.72,18.00%
+167,"Budget-Conscious Mother",45,Tier-2,Medium,6.87,8.11,4.82,18.00%
+168,"Budget-Conscious Mother",37,Tier-2,Medium,5.37,7.50,3.07,18.00%
+169,"Budget-Conscious Mother",33,Tier-2,Medium,5.94,8.06,4.47,18.00%
+170,"Budget-Conscious Mother",45,Tier-2,Medium,5.06,7.37,3.93,18.00%
+171,"Budget-Conscious Mother",39,Tier-2,Medium,6.66,7.25,4.67,18.00%
+172,"Budget-Conscious Mother",34,Tier-2,Medium,6.08,8.07,3.18,18.00%
+173,"Budget-Conscious Mother",36,Tier-2,Medium,6.24,8.92,3.07,18.00%
+174,"Budget-Conscious Mother",41,Tier-2,Medium,6.85,7.81,4.61,18.00%
+175,"Budget-Conscious Mother",41,Tier-2,Medium,5.68,7.93,3.48,18.00%
+176,"Budget-Conscious Mother",32,Tier-2,Medium,6.47,7.73,3.77,18.00%
+177,"Budget-Conscious Mother",31,Tier-2,Medium,6.75,8.26,3.54,18.00%
+178,"Budget-Conscious Mother",45,Tier-2,Medium,5.01,8.50,4.64,18.00%
+179,"Budget-Conscious Mother",34,Tier-2,Medium,6.61,8.21,3.35,18.00%
+180,"Budget-Conscious Mother",42,Tier-2,Medium,6.33,8.20,4.52,18.00%
+181,"Budget-Conscious Mother",40,Tier-2,Medium,5.36,7.55,3.69,18.00%
+182,"Budget-Conscious Mother",34,Tier-2,Medium,6.80,7.40,3.75,18.00%
+183,"Budget-Conscious Mother",43,Tier-2,Medium,6.01,7.71,4.34,18.00%
+184,"Budget-Conscious Mother",37,Tier-2,Medium,6.99,8.05,4.17,18.00%
+185,"Budget-Conscious Mother",37,Tier-2,Medium,6.61,7.70,4.13,18.00%
+186,"Budget-Conscious Mother",40,Tier-2,Medium,6.43,8.66,4.86,18.00%
+187,"Fitness-Focused Millennial",22,Urban,High,9.24,1.08,5.61,12.00%
+188,"Fitness-Focused Millennial",35,Urban,High,10.00,2.67,5.97,12.00%
+189,"Fitness-Focused Millennial",23,Urban,High,9.29,2.79,6.87,12.00%
+190,"Fitness-Focused Millennial",33,Urban,High,10.00,1.45,5.71,12.00%
+191,"Fitness-Focused Millennial",34,Urban,High,9.88,1.18,6.60,12.00%
+192,"Fitness-Focused Millennial",33,Urban,High,9.48,1.56,5.54,12.00%
+193,"Fitness-Focused Millennial",34,Urban,High,9.52,1.96,6.59,12.00%
+194,"Fitness-Focused Millennial",28,Urban,High,9.38,1.27,5.97,12.00%
+195,"Fitness-Focused Millennial",30,Urban,High,10.00,1.38,5.67,12.00%
+196,"Fitness-Focused Millennial",30,Urban,High,9.80,1.77,5.30,12.00%
+197,"Fitness-Focused Millennial",33,Urban,High,10.00,2.15,5.50,12.00%
+198,"Fitness-Focused Millennial",34,Urban,High,10.00,2.05,6.26,12.00%
+199,"Fitness-Focused Millennial",28,Urban,High,9.78,2.42,6.50,12.00%
+200,"Fitness-Focused Millennial",30,Urban,High,9.31,2.34,5.98,12.00%
+201,"Fitness-Focused Millennial",22,Urban,High,10.00,2.64,6.47,12.00%
+202,"Fitness-Focused Millennial",26,Urban,High,9.36,1.56,6.39,12.00%
+203,"Fitness-Focused Millennial",22,Urban,High,9.73,1.73,6.42,12.00%
+204,"Fitness-Focused Millennial",22,Urban,High,9.24,1.64,6.32,12.00%
+205,"Fitness-Focused Millennial",29,Urban,High,9.82,1.65,5.30,12.00%
+206,"Fitness-Focused Millennial",31,Urban,High,10.00,1.49,5.68,12.00%
+207,"Fitness-Focused Millennial",32,Urban,High,9.05,1.87,6.89,12.00%
+208,"Fitness-Focused Millennial",27,Urban,High,10.00,2.28,5.97,12.00%
+209,"Fitness-Focused Millennial",23,Urban,High,9.82,2.18,5.20,12.00%
+210,"Fitness-Focused Millennial",29,Urban,High,10.00,1.25,5.67,12.00%
+211,"Fitness-Focused Millennial",29,Urban,High,9.33,1.44,5.32,12.00%
+212,"Fitness-Focused Millennial",22,Urban,High,10.00,1.07,5.54,12.00%
+213,"Fitness-Focused Millennial",30,Urban,High,9.78,1.02,5.18,12.00%
+214,"Fitness-Focused Millennial",22,Urban,High,10.00,2.87,6.22,12.00%
+215,"Fitness-Focused Millennial",22,Urban,High,9.59,1.81,5.12,12.00%
+216,"Fitness-Focused Millennial",35,Urban,High,10.00,1.25,5.61,12.00%
+217,"Fitness-Focused Millennial",30,Urban,High,9.09,1.63,6.43,12.00%
+218,"Fitness-Focused Millennial",26,Urban,High,10.00,2.30,6.67,12.00%
+219,"Fitness-Focused Millennial",24,Urban,High,10.00,2.45,6.97,12.00%
+220,"Fitness-Focused Millennial",32,Urban,High,9.40,2.37,5.17,12.00%
+221,"Fitness-Focused Millennial",31,Urban,High,10.00,2.25,5.99,12.00%
+222,"Fitness-Focused Millennial",30,Urban,High,9.28,1.39,5.36,12.00%
+223,"Fitness-Focused Millennial",23,Urban,High,9.51,2.05,6.87,12.00%
+224,"Fitness-Focused Millennial",34,Urban,High,9.29,1.73,6.88,12.00%
+225,"Fitness-Focused Millennial",35,Urban,High,10.00,2.43,5.80,12.00%
+226,"Fitness-Focused Millennial",25,Urban,High,10.00,2.57,6.10,12.00%
+227,"Fitness-Focused Millennial",23,Urban,High,10.00,1.57,5.60,12.00%
+228,"Fitness-Focused Millennial",25,Urban,High,10.00,1.27,6.36,12.00%
+229,"Fitness-Focused Millennial",25,Urban,High,9.38,1.64,6.63,12.00%
+230,"Fitness-Focused Millennial",34,Urban,High,10.00,1.36,6.13,12.00%
+231,"Fitness-Focused Millennial",27,Urban,High,9.36,1.47,5.70,12.00%
+232,"Fitness-Focused Millennial",31,Urban,High,9.13,1.76,5.46,12.00%
+233,"Fitness-Focused Millennial",33,Urban,High,10.00,1.22,6.71,12.00%
+234,"Fitness-Focused Millennial",25,Urban,High,9.86,2.91,6.98,12.00%
+235,"Fitness-Focused Millennial",25,Urban,High,9.98,1.04,6.51,12.00%
+236,"Fitness-Focused Millennial",31,Urban,High,9.73,1.21,6.38,12.00%
+237,"Fitness-Focused Millennial",23,Urban,High,9.81,2.29,5.63,12.00%
+238,"Fitness-Focused Millennial",35,Urban,High,9.51,1.99,6.33,12.00%
+239,"Fitness-Focused Millennial",30,Urban,High,10.00,2.66,5.88,12.00%
+240,"Fitness-Focused Millennial",26,Urban,High,9.69,2.91,6.09,12.00%
+241,"Fitness-Focused Millennial",30,Urban,High,10.00,1.58,5.19,12.00%
+242,"Fitness-Focused Millennial",22,Urban,High,10.00,2.37,5.92,12.00%
+243,"Fitness-Focused Millennial",25,Urban,High,9.58,2.01,6.09,12.00%
+244,"Fitness-Focused Millennial",35,Urban,High,9.11,1.41,6.56,12.00%
+245,"Fitness-Focused Millennial",27,Urban,High,10.00,2.20,5.91,12.00%
+246,"Fitness-Focused Millennial",30,Urban,High,9.95,1.10,5.70,12.00%
+247,"Fitness-Focused Millennial",24,Urban,High,10.00,1.69,6.56,12.00%
+248,"Fitness-Focused Millennial",22,Urban,High,10.00,2.95,6.22,12.00%
+249,"Traditional Homemaker",54,Tier-2,Low,4.36,8.69,8.61,15.00%
+250,"Traditional Homemaker",50,Tier-2,Low,5.14,9.77,7.66,15.00%
+251,"Traditional Homemaker",50,Tier-2,Low,5.96,8.43,8.75,15.00%
+252,"Traditional Homemaker",42,Tier-2,Low,5.39,9.75,7.32,15.00%
+253,"Traditional Homemaker",50,Tier-2,Low,5.79,9.75,8.19,15.00%
+254,"Traditional Homemaker",55,Tier-2,Low,5.79,8.81,7.47,15.00%
+255,"Traditional Homemaker",38,Tier-2,Low,5.57,8.93,7.28,15.00%
+256,"Traditional Homemaker",55,Tier-2,Low,5.86,8.80,7.16,15.00%
+257,"Traditional Homemaker",44,Tier-2,Low,4.41,8.93,7.94,15.00%
+258,"Traditional Homemaker",35,Tier-2,Low,5.30,9.85,7.37,15.00%
+259,"Traditional Homemaker",46,Tier-2,Low,4.53,8.80,8.46,15.00%
+260,"Traditional Homemaker",42,Tier-2,Low,4.82,9.22,8.01,15.00%
+261,"Traditional Homemaker",39,Tier-2,Low,4.84,9.24,7.51,15.00%
+262,"Traditional Homemaker",55,Tier-2,Low,4.50,8.98,7.10,15.00%
+263,"Traditional Homemaker",38,Tier-2,Low,4.83,9.55,8.77,15.00%
+264,"Traditional Homemaker",38,Tier-2,Low,4.73,8.92,8.33,15.00%
+265,"Traditional Homemaker",52,Tier-2,Low,4.62,9.71,8.84,15.00%
+266,"Traditional Homemaker",47,Tier-2,Low,5.00,9.53,7.39,15.00%
+267,"Traditional Homemaker",54,Tier-2,Low,4.35,9.15,7.13,15.00%
+268,"Traditional Homemaker",44,Tier-2,Low,4.71,9.40,7.42,15.00%
+269,"Traditional Homemaker",37,Tier-2,Low,5.09,8.86,7.96,15.00%
+270,"Traditional Homemaker",45,Tier-2,Low,5.67,9.96,7.60,15.00%
+271,"Traditional Homemaker",54,Tier-2,Low,5.76,8.85,7.68,15.00%
+272,"Traditional Homemaker",37,Tier-2,Low,4.43,8.81,7.51,15.00%
+273,"Traditional Homemaker",44,Tier-2,Low,4.43,9.58,8.74,15.00%
+274,"Traditional Homemaker",44,Tier-2,Low,4.97,8.96,7.23,15.00%
+275,"Traditional Homemaker",37,Tier-2,Low,4.31,9.85,7.56,15.00%
+276,"Traditional Homemaker",39,Tier-2,Low,4.81,9.25,7.50,15.00%
+277,"Traditional Homemaker",45,Tier-2,Low,4.15,9.77,7.76,15.00%
+278,"Traditional Homemaker",52,Tier-2,Low,4.70,8.74,8.66,15.00%
+279,"Traditional Homemaker",35,Tier-2,Low,5.71,9.29,8.24,15.00%
+280,"Traditional Homemaker",45,Tier-2,Low,4.05,8.59,7.76,15.00%
+281,"Traditional Homemaker",36,Tier-2,Low,5.63,9.22,8.08,15.00%
+282,"Traditional Homemaker",46,Tier-2,Low,5.72,9.28,8.11,15.00%
+283,"Traditional Homemaker",48,Tier-2,Low,5.32,9.48,7.71,15.00%
+284,"Traditional Homemaker",41,Tier-2,Low,5.07,8.36,7.30,15.00%
+285,"Traditional Homemaker",46,Tier-2,Low,4.79,9.74,7.08,15.00%
+286,"Traditional Homemaker",53,Tier-2,Low,5.71,9.70,7.02,15.00%
+287,"Traditional Homemaker",41,Tier-2,Low,4.24,8.02,8.10,15.00%
+288,"Traditional Homemaker",36,Tier-2,Low,5.82,8.61,8.16,15.00%
+289,"Traditional Homemaker",51,Tier-2,Low,5.76,8.72,7.40,15.00%
+290,"Traditional Homemaker",46,Tier-2,Low,4.54,9.11,7.75,15.00%
+291,"Traditional Homemaker",47,Tier-2,Low,5.56,9.15,7.14,15.00%
+292,"Traditional Homemaker",49,Tier-2,Low,5.57,8.50,7.46,15.00%
+293,"Traditional Homemaker",39,Tier-2,Low,4.43,8.71,8.64,15.00%
+294,"Traditional Homemaker",47,Tier-2,Low,4.66,8.92,7.33,15.00%
+295,"Traditional Homemaker",38,Tier-2,Low,4.02,9.47,8.22,15.00%
+296,"Traditional Homemaker",39,Tier-2,Low,4.91,9.80,7.41,15.00%
+297,"Traditional Homemaker",40,Tier-2,Low,5.88,8.46,8.56,15.00%
+298,"Traditional Homemaker",48,Tier-2,Low,4.16,9.74,8.64,15.00%
+299,"Traditional Homemaker",54,Tier-2,Low,4.54,9.40,7.15,15.00%
+300,"Traditional Homemaker",44,Tier-2,Low,4.16,9.08,7.87,15.00%
+301,"Traditional Homemaker",53,Tier-2,Low,4.34,9.79,8.33,15.00%
+302,"Traditional Homemaker",54,Tier-2,Low,5.54,9.59,7.25,15.00%
+303,"Traditional Homemaker",47,Tier-2,Low,4.30,9.12,7.89,15.00%
+304,"Traditional Homemaker",40,Tier-2,Low,5.74,9.16,7.87,15.00%
+305,"Traditional Homemaker",46,Tier-2,Low,4.74,8.93,8.89,15.00%
+306,"Traditional Homemaker",51,Tier-2,Low,5.93,8.35,8.60,15.00%
+307,"Traditional Homemaker",41,Tier-2,Low,5.25,9.39,8.80,15.00%
+308,"Traditional Homemaker",50,Tier-2,Low,4.46,8.13,7.52,15.00%
+309,"Traditional Homemaker",37,Tier-2,Low,4.37,9.98,8.95,15.00%
+310,"Traditional Homemaker",35,Tier-2,Low,4.79,8.15,8.29,15.00%
+311,"Young Student",20,Urban,Low,4.23,9.44,3.95,10.00%
+312,"Young Student",18,Urban,Low,3.26,9.66,2.92,10.00%
+313,"Young Student",20,Urban,Low,4.98,10.00,2.07,10.00%
+314,"Young Student",19,Urban,Low,3.64,9.84,3.81,10.00%
+315,"Young Student",18,Urban,Low,4.39,9.64,2.06,10.00%
+316,"Young Student",24,Urban,Low,4.92,9.28,3.08,10.00%
+317,"Young Student",19,Urban,Low,4.65,9.59,2.81,10.00%
+318,"Young Student",20,Urban,Low,3.18,9.33,3.93,10.00%
+319,"Young Student",20,Urban,Low,4.07,9.18,2.48,10.00%
+320,"Young Student",24,Urban,Low,4.86,10.00,2.67,10.00%
+321,"Young Student",24,Urban,Low,3.67,9.82,2.68,10.00%
+322,"Young Student",22,Urban,Low,3.57,9.98,2.73,10.00%
+323,"Young Student",19,Urban,Low,3.63,9.26,2.80,10.00%
+324,"Young Student",23,Urban,Low,3.13,9.84,2.60,10.00%
+325,"Young Student",23,Urban,Low,3.41,10.00,3.37,10.00%
+326,"Young Student",19,Urban,Low,4.58,9.65,3.14,10.00%
+327,"Young Student",20,Urban,Low,4.30,10.00,2.63,10.00%
+328,"Young Student",25,Urban,Low,3.75,9.18,2.92,10.00%
+329,"Young Student",18,Urban,Low,4.69,10.00,3.89,10.00%
+330,"Young Student",23,Urban,Low,3.88,10.00,2.73,10.00%
+331,"Young Student",23,Urban,Low,3.78,10.00,3.25,10.00%
+332,"Young Student",18,Urban,Low,3.53,10.00,3.73,10.00%
+333,"Young Student",22,Urban,Low,3.94,9.94,3.08,10.00%
+334,"Young Student",21,Urban,Low,3.90,9.29,3.43,10.00%
+335,"Young Student",21,Urban,Low,3.39,9.18,3.64,10.00%
+336,"Young Student",23,Urban,Low,3.46,10.00,3.25,10.00%
+337,"Young Student",22,Urban,Low,3.06,10.00,3.59,10.00%
+338,"Young Student",19,Urban,Low,4.32,9.89,3.02,10.00%
+339,"Young Student",21,Urban,Low,3.87,9.88,3.82,10.00%
+340,"Young Student",19,Urban,Low,3.11,9.85,4.00,10.00%
+341,"Young Student",23,Urban,Low,4.80,10.00,2.44,10.00%
+342,"Young Student",18,Urban,Low,4.41,9.02,3.13,10.00%
+343,"Young Student",18,Urban,Low,4.00,10.00,3.41,10.00%
+344,"Young Student",19,Urban,Low,4.37,9.56,3.55,10.00%
+345,"Young Student",19,Urban,Low,3.34,9.20,3.95,10.00%
+346,"Young Student",25,Urban,Low,3.75,10.00,2.94,10.00%
+347,"Young Student",22,Urban,Low,4.71,9.50,2.16,10.00%
+348,"Young Student",22,Urban,Low,4.33,10.00,3.00,10.00%
+349,"Young Student",21,Urban,Low,3.58,9.83,2.92,10.00%
+350,"Young Student",22,Urban,Low,4.89,10.00,3.95,10.00%
+351,"Young Student",25,Urban,Low,3.07,10.00,2.68,10.00%
+352,"Young Student",18,Urban,Low,3.84,10.00,3.28,10.00%
+353,"Young Student",25,Urban,Low,3.48,10.00,3.67,10.00%
+354,"Young Student",20,Urban,Low,4.29,10.00,3.78,10.00%
+355,"Young Student",18,Urban,Low,3.75,9.19,3.22,10.00%
+356,"Young Student",24,Urban,Low,4.62,10.00,2.04,10.00%
+357,"Young Student",22,Urban,Low,3.67,10.00,3.45,10.00%
+358,"Young Student",23,Urban,Low,3.76,9.63,2.79,10.00%
+359,"Young Student",18,Urban,Low,3.74,9.66,2.95,10.00%
+360,"Young Student",20,Urban,Low,3.91,10.00,3.08,10.00%
+361,"Young Student",25,Urban,Low,3.75,9.04,3.92,10.00%
+362,"Young Student",19,Urban,Low,4.78,9.86,3.93,10.00%
+363,"Young Student",18,Urban,Low,3.12,9.14,3.17,10.00%
+364,"Young Student",25,Urban,Low,4.04,10.00,3.60,10.00%
+365,"Young Student",22,Urban,Low,4.99,10.00,3.19,10.00%
+366,"Young Student",25,Urban,Low,4.87,10.00,2.64,10.00%
+367,"Young Student",19,Urban,Low,4.70,9.62,3.60,10.00%
+368,"Young Student",18,Urban,Low,4.25,10.00,2.35,10.00%
+369,"Young Student",19,Urban,Low,4.05,9.19,3.89,10.00%
+370,"Young Student",21,Urban,Low,3.30,9.70,2.06,10.00%
+371,"Young Student",23,Urban,Low,4.89,9.27,2.99,10.00%
+372,"Young Student",25,Urban,Low,4.70,9.93,2.31,10.00%
+373,"Senior Citizen",60,Tier-2,Medium,7.16,6.06,9.08,6.00%
+374,"Senior Citizen",56,Tier-2,Medium,8.54,7.21,8.34,6.00%
+375,"Senior Citizen",63,Tier-2,Medium,7.46,6.28,8.49,6.00%
+376,"Senior Citizen",63,Tier-2,Medium,8.94,6.24,8.55,6.00%
+377,"Senior Citizen",57,Tier-2,Medium,8.50,6.15,9.73,6.00%
+378,"Senior Citizen",66,Tier-2,Medium,8.80,6.57,8.54,6.00%
+379,"Senior Citizen",69,Tier-2,Medium,8.67,6.50,9.87,6.00%
+380,"Senior Citizen",63,Tier-2,Medium,8.84,6.37,8.54,6.00%
+381,"Senior Citizen",59,Tier-2,Medium,8.55,6.17,9.99,6.00%
+382,"Senior Citizen",59,Tier-2,Medium,8.33,6.56,9.59,6.00%
+383,"Senior Citizen",62,Tier-2,Medium,8.70,6.05,9.54,6.00%
+384,"Senior Citizen",55,Tier-2,Medium,8.04,7.11,8.93,6.00%
+385,"Senior Citizen",61,Tier-2,Medium,8.54,6.73,9.22,6.00%
+386,"Senior Citizen",61,Tier-2,Medium,7.03,6.68,8.29,6.00%
+387,"Senior Citizen",70,Tier-2,Medium,7.36,7.49,9.13,6.00%
+388,"Senior Citizen",70,Tier-2,Medium,7.11,7.29,8.09,6.00%
+389,"Senior Citizen",62,Tier-2,Medium,8.40,7.45,8.53,6.00%
+390,"Senior Citizen",65,Tier-2,Medium,7.07,6.03,8.45,6.00%
+391,"Senior Citizen",66,Tier-2,Medium,7.73,7.19,9.53,6.00%
+392,"Senior Citizen",59,Tier-2,Medium,8.65,6.42,8.31,6.00%
+393,"Senior Citizen",68,Tier-2,Medium,7.59,7.45,9.71,6.00%
+394,"Senior Citizen",70,Tier-2,Medium,8.01,7.38,8.73,6.00%
+395,"Senior Citizen",56,Tier-2,Medium,8.98,6.38,8.41,6.00%
+396,"Senior Citizen",59,Tier-2,Medium,7.42,6.13,8.20,6.00%
+397,"Senior Citizen",65,Tier-2,Medium,7.15,6.12,8.51,6.00%
+398,"Senior Citizen",66,Tier-2,Medium,7.60,6.42,8.55,6.00%
+399,"Senior Citizen",66,Tier-2,Medium,7.77,7.52,8.93,6.00%
+400,"Senior Citizen",62,Tier-2,Medium,7.61,7.26,8.57,6.00%
+401,"Senior Citizen",60,Tier-2,Medium,7.10,7.12,8.76,6.00%
+402,"Senior Citizen",59,Tier-2,Medium,8.88,7.81,8.58,6.00%
+403,"Senior Citizen",60,Tier-2,Medium,7.84,6.49,9.87,6.00%
+404,"Senior Citizen",58,Tier-2,Medium,8.01,6.95,9.77,6.00%
+405,"Senior Citizen",70,Tier-2,Medium,7.01,7.17,8.06,6.00%
+406,"Senior Citizen",69,Tier-2,Medium,8.73,6.40,9.46,6.00%
+407,"Senior Citizen",59,Tier-2,Medium,8.59,7.62,8.40,6.00%
+408,"Senior Citizen",58,Tier-2,Medium,7.88,6.61,8.78,6.00%
+409,"Senior Citizen",58,Tier-2,Medium,8.19,6.61,8.99,6.00%
+410,"Senior Citizen",62,Tier-2,Medium,8.71,6.20,8.68,6.00%
+411,"Senior Citizen",69,Tier-2,Medium,7.41,6.41,9.26,6.00%
+412,"Senior Citizen",69,Tier-2,Medium,7.33,6.30,8.77,6.00%
+413,"Senior Citizen",62,Tier-2,Medium,7.19,7.41,8.59,6.00%
+414,"Senior Citizen",60,Tier-2,Medium,8.62,6.21,9.00,6.00%
+415,"Senior Citizen",67,Tier-2,Medium,7.09,6.96,8.02,6.00%
+416,"Senior Citizen",60,Tier-2,Medium,7.14,6.44,8.36,6.00%
+417,"Senior Citizen",66,Tier-2,Medium,8.93,6.70,8.61,6.00%
+418,"Senior Citizen",59,Tier-2,Medium,8.85,7.32,8.81,6.00%
+419,"Senior Citizen",57,Tier-2,Medium,8.26,7.67,9.27,6.00%
+420,"Senior Citizen",60,Tier-2,Medium,7.38,6.07,9.99,6.00%
+421,"Senior Citizen",63,Tier-2,Medium,7.20,7.39,9.77,6.00%
+422,"Senior Citizen",68,Tier-2,Medium,7.23,6.95,8.32,6.00%
+423,"Senior Citizen",56,Tier-2,Medium,7.75,6.68,9.54,6.00%
+424,"Senior Citizen",57,Tier-2,Medium,8.59,7.24,9.26,6.00%
+425,"Senior Citizen",58,Tier-2,Medium,7.99,6.48,9.88,6.00%
+426,"Senior Citizen",56,Tier-2,Medium,7.43,6.91,9.52,6.00%
+427,"Senior Citizen",55,Tier-2,Medium,8.70,6.65,8.75,6.00%
+428,"Senior Citizen",67,Tier-2,Medium,8.06,7.41,8.26,6.00%
+429,"Senior Citizen",57,Tier-2,Medium,8.35,7.26,8.73,6.00%
+430,"Senior Citizen",56,Tier-2,Medium,7.26,7.75,9.54,6.00%
+431,"Senior Citizen",59,Tier-2,Medium,7.14,6.11,9.73,6.00%
+432,"Senior Citizen",70,Tier-2,Medium,7.34,6.85,9.52,6.00%
+433,"Senior Citizen",57,Tier-2,Medium,7.14,6.73,8.56,6.00%
+434,"Senior Citizen",58,Tier-2,Medium,7.59,7.36,8.93,6.00%
+435,"Corporate Executive",33,Urban,High,6.18,4.83,5.88,4.00%
+436,"Corporate Executive",42,Urban,High,7.02,4.58,6.49,4.00%
+437,"Corporate Executive",37,Urban,High,6.09,3.81,6.55,4.00%
+438,"Corporate Executive",41,Urban,High,6.47,3.49,6.16,4.00%
+439,"Corporate Executive",34,Urban,High,7.30,3.38,6.22,4.00%
+440,"Corporate Executive",47,Urban,High,6.17,4.75,6.35,4.00%
+441,"Corporate Executive",44,Urban,High,6.97,4.41,6.35,4.00%
+442,"Corporate Executive",41,Urban,High,7.18,3.17,5.94,4.00%
+443,"Corporate Executive",50,Urban,High,6.39,4.72,6.09,4.00%
+444,"Corporate Executive",45,Urban,High,6.16,4.19,5.97,4.00%
+445,"Corporate Executive",44,Urban,High,7.89,4.72,6.80,4.00%
+446,"Corporate Executive",32,Urban,High,6.87,3.09,6.45,4.00%
+447,"Corporate Executive",45,Urban,High,6.59,4.55,6.89,4.00%
+448,"Corporate Executive",37,Urban,High,6.85,3.04,6.62,4.00%
+449,"Corporate Executive",37,Urban,High,6.28,3.37,6.56,4.00%
+450,"Corporate Executive",39,Urban,High,7.43,3.89,6.29,4.00%
+451,"Corporate Executive",49,Urban,High,7.59,3.13,5.62,4.00%
+452,"Corporate Executive",35,Urban,High,6.97,4.14,6.21,4.00%
+453,"Corporate Executive",47,Urban,High,7.16,3.03,6.72,4.00%
+454,"Corporate Executive",49,Urban,High,6.15,3.07,5.13,4.00%
+455,"Corporate Executive",39,Urban,High,6.56,4.21,5.22,4.00%
+456,"Corporate Executive",41,Urban,High,6.69,3.14,5.42,4.00%
+457,"Corporate Executive",41,Urban,High,6.73,3.19,6.44,4.00%
+458,"Corporate Executive",41,Urban,High,7.39,4.45,6.85,4.00%
+459,"Corporate Executive",43,Urban,High,6.53,4.81,6.84,4.00%
+460,"Corporate Executive",37,Urban,High,7.28,3.68,6.59,4.00%
+461,"Corporate Executive",35,Urban,High,6.82,4.85,5.46,4.00%
+462,"Corporate Executive",32,Urban,High,6.40,4.19,6.38,4.00%
+463,"Corporate Executive",42,Urban,High,7.55,4.43,6.79,4.00%
+464,"Corporate Executive",36,Urban,High,6.05,4.65,6.38,4.00%
+465,"Corporate Executive",50,Urban,High,6.84,3.55,6.12,4.00%
+466,"Corporate Executive",50,Urban,High,6.19,4.81,5.59,4.00%
+467,"Corporate Executive",40,Urban,High,7.08,3.01,5.54,4.00%
+468,"Corporate Executive",45,Urban,High,6.46,3.99,5.28,4.00%
+469,"Corporate Executive",46,Urban,High,7.89,3.08,5.86,4.00%
+470,"Corporate Executive",46,Urban,High,6.62,4.28,5.39,4.00%
+471,"Corporate Executive",33,Urban,High,6.52,3.49,6.50,4.00%
+472,"Corporate Executive",46,Urban,High,6.78,3.16,5.75,4.00%
+473,"Corporate Executive",33,Urban,High,7.14,4.53,6.22,4.00%
+474,"Corporate Executive",34,Urban,High,6.50,4.13,6.86,4.00%
+475,"Corporate Executive",33,Urban,High,6.39,4.64,6.08,4.00%
+476,"Corporate Executive",42,Urban,High,6.72,4.71,5.18,4.00%
+477,"Corporate Executive",34,Urban,High,7.99,4.69,5.35,4.00%
+478,"Corporate Executive",45,Urban,High,7.72,3.70,5.14,4.00%
+479,"Corporate Executive",46,Urban,High,6.24,3.35,6.10,4.00%
+480,"Corporate Executive",42,Urban,High,6.42,4.80,5.20,4.00%
+481,"Corporate Executive",50,Urban,High,7.42,4.39,5.57,4.00%
+482,"Corporate Executive",49,Urban,High,6.03,4.81,6.67,4.00%
+483,"Corporate Executive",43,Urban,High,6.81,4.68,6.39,4.00%
+484,"Corporate Executive",41,Urban,High,6.53,3.70,5.35,4.00%
+485,"Corporate Executive",37,Urban,High,7.43,3.86,6.78,4.00%
+486,"Corporate Executive",44,Urban,High,6.36,3.05,6.44,4.00%
+487,"Corporate Executive",38,Urban,High,6.45,3.81,5.81,4.00%
+488,"Corporate Executive",36,Urban,High,6.72,4.06,5.09,4.00%
+489,"Corporate Executive",46,Urban,High,7.28,4.62,6.41,4.00%
+490,"Corporate Executive",39,Urban,High,6.97,4.75,6.40,4.00%
+491,"Corporate Executive",47,Urban,High,7.85,3.09,6.79,4.00%
+492,"Corporate Executive",47,Urban,High,7.30,4.66,6.71,4.00%
+493,"Corporate Executive",45,Urban,High,6.16,3.40,6.83,4.00%
+494,"Corporate Executive",35,Urban,High,7.32,3.82,5.09,4.00%
+495,"Corporate Executive",45,Urban,High,6.19,3.35,5.24,4.00%
+496,"Corporate Executive",43,Urban,High,7.53,3.80,6.45,4.00%
+497,"Corporate Executive",32,Urban,High,6.05,3.06,5.73,4.00%
+498,"Corporate Executive",37,Urban,High,6.50,4.25,6.79,4.00%
+499,"Corporate Executive",39,Urban,High,7.16,4.22,6.64,4.00%
+500,"Corporate Executive",33,Urban,High,6.56,4.79,6.42,4.00%

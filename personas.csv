@@ -1,0 +1,9 @@
+ID,Persona Name,Age Range,City Type,Income Level,Health Consciousness (1-10),Price Sensitivity (1-10),Brand Loyalty (1-10),Market Weight (%),Description
+1,Urban Health Enthusiast,25-45,Urban,High,9,3,7,15,"Highly health-conscious urban women with high disposable income"
+2,Working Professional,28-40,Urban,Medium,7,6,5,20,"Busy working women balancing career and health (Largest segment)"
+3,Budget-Conscious Mother,30-45,Tier-2,Medium,6,8,4,18,"Mothers from Tier-2 cities managing family health on budget"
+4,Fitness-Focused Millennial,22-35,Urban,High,10,2,6,12,"Gym-going fitness-obsessed young women"
+5,Traditional Homemaker,35-55,Tier-2,Low,5,9,8,15,"Traditional women from smaller cities preferring trusted brands"
+6,Young Student,18-25,Urban,Low,4,10,3,10,"College students with limited budget"
+7,Senior Citizen,55-70,Tier-2,Medium,8,7,9,6,"Older women focused on health maintenance"
+8,Corporate Executive,32-50,Urban,High,7,4,6,4,"High-earning corporate leaders valuing premium products"

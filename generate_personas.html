@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate 500 Personas</title>
+</head>
+<body>
+    <h1>Generating 500 Personas...</h1>
+    <p>Check console and download buttons below</p>
+    <button onclick="downloadJSON()">Download personas.json (500 personas)</button>
+    <button onclick="downloadCSV()">Download all_personas.csv (500 personas)</button>
+
+    <script>
+        // 8 Base Persona Templates
+        const basePersonas = [
+            {
+                name: "Urban Health Enthusiast",
+                cityType: "Urban",
+                incomeLevel: "High",
+                healthConsciousness: 9,
+                priceSensitivity: 3,
+                brandLoyalty: 7,
+                weight: 15,
+                ageMin: 25,
+                ageMax: 45
+            },
+            {
+                name: "Working Professional",
+                cityType: "Urban",
+                incomeLevel: "Medium",
+                healthConsciousness: 7,
+                priceSensitivity: 6,
+                brandLoyalty: 5,
+                weight: 20,
+                ageMin: 28,
+                ageMax: 40
+            },
+            {
+                name: "Budget-Conscious Mother",
+                cityType: "Tier-2",
+                incomeLevel: "Medium",
+                healthConsciousness: 6,
+                priceSensitivity: 8,
+                brandLoyalty: 4,
+                weight: 18,
+                ageMin: 30,
+                ageMax: 45
+            },
+            {
+                name: "Fitness-Focused Millennial",
+                cityType: "Urban",
+                incomeLevel: "High",
+                healthConsciousness: 10,
+                priceSensitivity: 2,
+                brandLoyalty: 6,
+                weight: 12,
+                ageMin: 22,
+                ageMax: 35
+            },
+            {
+                name: "Traditional Homemaker",
+                cityType: "Tier-2",
+                incomeLevel: "Low",
+                healthConsciousness: 5,
+                priceSensitivity: 9,
+                brandLoyalty: 8,
+                weight: 15,
+                ageMin: 35,
+                ageMax: 55
+            },
+            {
+                name: "Young Student",
+                cityType: "Urban",
+                incomeLevel: "Low",
+                healthConsciousness: 4,
+                priceSensitivity: 10,
+                brandLoyalty: 3,
+                weight: 10,
+                ageMin: 18,
+                ageMax: 25
+            },
+            {
+                name: "Senior Citizen",
+                cityType: "Tier-2",
+                incomeLevel: "Medium",
+                healthConsciousness: 8,
+                priceSensitivity: 7,
+                brandLoyalty: 9,
+                weight: 6,
+                ageMin: 55,
+                ageMax: 70
+            },
+            {
+                name: "Corporate Executive",
+                cityType: "Urban",
+                incomeLevel: "High",
+                healthConsciousness: 7,
+                priceSensitivity: 4,
+                brandLoyalty: 6,
+                weight: 4,
+                ageMin: 32,
+                ageMax: 50
+            }
+        ];
+
+        // Generate 500 personas from base templates
+        function generatePersonas() {
+            const personas = [];
+            const personasPerTemplate = Math.floor(500 / basePersonas.length);
+            
+            basePersonas.forEach((template, index) => {
+                const count = index === basePersonas.length - 1 
+                    ? 500 - personas.length  // Last template fills remaining
+                    : personasPerTemplate;
+                
+                for (let i = 0; i < count; i++) {
+                    personas.push({
+                        id: personas.length + 1,
+                        name: template.name,
+                        age: Math.floor(Math.random() * (template.ageMax - template.ageMin + 1)) + template.ageMin,
+                        cityType: template.cityType,
+                        incomeLevel: template.incomeLevel,
+                        healthConsciousness: Math.max(1, Math.min(10, template.healthConsciousness + (Math.random() - 0.5) * 2)),
+                        priceSensitivity: Math.max(1, Math.min(10, template.priceSensitivity + (Math.random() - 0.5) * 2)),
+                        brandLoyalty: Math.max(1, Math.min(10, template.brandLoyalty + (Math.random() - 0.5) * 2)),
+                        marketWeight: template.weight / 100
+                    });
+                }
+            });
+            
+            return personas;
+        }
+
+        const allPersonas = generatePersonas();
+        console.log('Generated personas:', allPersonas);
+        console.log('Total count:', allPersonas.length);
+
+        // Download as JSON
+        function downloadJSON() {
+            const dataStr = JSON.stringify(allPersonas, null, 2);
+            const dataBlob = new Blob([dataStr], {type: 'application/json'});
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'all_500_personas.json';
+            link.click();
+        }
+
+        // Download as CSV
+        function downloadCSV() {
+            let csv = 'ID,Persona Name,Age,City Type,Income Level,Health Consciousness,Price Sensitivity,Brand Loyalty,Market Weight\n';
+            
+            allPersonas.forEach(p => {
+                csv += `${p.id},${p.name},${p.age},${p.cityType},${p.incomeLevel},${p.healthConsciousness.toFixed(2)},${p.priceSensitivity.toFixed(2)},${p.brandLoyalty.toFixed(2)},${(p.marketWeight * 100).toFixed(2)}%\n`;
+            });
+            
+            const dataBlob = new Blob([csv], {type: 'text/csv'});
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'all_500_personas.csv';
+            link.click();
+        }
+
+        // Auto-download on page load
+        setTimeout(() => {
+            downloadJSON();
+            setTimeout(() => downloadCSV(), 500);
+        }, 1000);
+    </script>
+</body>
+</html>
