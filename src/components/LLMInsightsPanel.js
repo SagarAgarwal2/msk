@@ -46,7 +46,7 @@ function LLMInsightsPanel({ results, config }) {
   return (
     <div className="llm-panel">
       <div className="llm-panel-header">
-        <h3>🧠 Groq LLM Intelligence Layer</h3>
+        <h3>🧠 Intelligent Layer</h3>
         <p>Real-time AI analysis of your 25,000-persona simulation · Llama 3.1</p>
       </div>
 

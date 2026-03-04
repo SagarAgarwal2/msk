@@ -1,6 +1,6 @@
-# Digital Twin Market Engine — ML + AI FMCG Simulator
+# Digital Twin Market Engine — Launch Simulator
 
-A sophisticated React application for simulating FMCG product launches using Machine Learning models. Features neural networks, clustering, churn prediction, and market estimation.
+A sophisticated React application for simulating FMCG product launches using Machine Learning models and AI-powered insights. Features neural networks, clustering, churn prediction, market estimation, and real-time LLM analysis via Groq.
 
 ## 🚀 Features
 
@@ -11,12 +11,21 @@ A sophisticated React application for simulating FMCG product launches using Mac
 4. **Market Size Estimation** - Regression-based TAM calculation
 5. **Price Optimization Engine** - Find optimal pricing using ML
 
+### AI Intelligence Layer
+- **Groq LLM Integration** - Real-time AI analysis powered by Llama 3.1 (8B)
+- **Natural Language Insights** - Auto-generated strategic recommendations
+- **Interactive AI Chatbot** - Ask questions about your simulation results
+- **5 Specialized Functions** - Market analysis, pricing strategy, competitor insights, growth tactics, risk assessment
+
 ### Key Capabilities
 - Real-time simulation with 25,000 synthetic personas
 - Interactive parameter controls (price, features, marketing)
+- Product stage selection (Ideation / MVP / Already Selling)
+- Business model toggle (B2C / B2B / B2B2C)
 - Side-by-side comparison: Rule-based vs ML predictions
 - Multiple data visualizations using Chart.js
 - Comprehensive business insights dashboard
+- AI-generated strategic recommendations
 
 ## 📦 Installation
 
@@ -24,6 +33,16 @@ A sophisticated React application for simulating FMCG product launches using Mac
 cd react-app
 npm install
 ```
+
+### Environment Setup
+
+Create a `.env` file in the `react-app` directory:
+
+```bash
+REACT_APP_GROQ_API_KEY=your_groq_api_key_here
+```
+
+Get your free API key from [Groq Console](https://console.groq.com/)
 
 ## 🏃‍♂️ Running the Application
 
@@ -59,10 +78,13 @@ react-app/
 │   │   ├── RevenueChart.js
 │   │   ├── ChurnTable.js
 │   │   ├── TraditionalInsights.js
-│   │   └── RegionalData.js
+│   │   ├── RegionalData.js
+│   │   ├── LLMInsightsPanel.js  # AI-generated insights
+│   │   └── AIChatbot.js         # Interactive Q&A
 │   ├── services/
 │   │   ├── MLEngine.js          # Core ML logic
-│   │   └── personaService.js    # Persona generation
+│   │   ├── personaService.js    # Persona generation
+│   │   └── groqService.js       # Groq LLM integration
 │   ├── App.js                   # Main application
 │   ├── App.css                  # Styling
 │   ├── index.js                 # Entry point
@@ -95,7 +117,7 @@ react-app/
 - Outputs: TAM, urban/tier-2 breakdown
 
 ### 5. Price Optimization
-- Tests multiple price points (₹299-₹599)
+- Tests multiple price points (₹99-₹999)
 - Finds revenue-maximizing configuration
 - Confidence scoring based on training data
 
@@ -110,7 +132,8 @@ react-app/
 ## 🛠️ Technologies
 
 - **React 18** - Modern UI framework
-- **TensorFlow.js** - Machine learning in the browser
+- **TensorFlow.js 4.11** - Machine learning in the browser
+- **Groq SDK** - Ultra-fast LLM inference (Llama 3.1 8B)
 - **Chart.js** - Data visualizations
 - **React-Chartjs-2** - React wrapper for Chart.js
 
@@ -126,17 +149,19 @@ react-app/
 This project is optimized for presentations:
 - Clean, professional UI
 - Real-time interactive demos
+- AI-powered insights via Groq LLM
+- Interactive chatbot for Q&A
 - Business-focused insights
 - Comprehensive metrics dashboard
-- Impressive ML technology stack
+- Impressive ML + AI technology stack
 
 ## 🔬 Future Enhancements
 
-- [ ] Add LLM-powered natural language insights
 - [ ] Real-time competitor data integration
 - [ ] Advanced ensemble models (XGBoost, Random Forest)
 - [ ] A/B testing simulator
 - [ ] Marketing campaign ROI calculator
+- [ ] Multi-product portfolio analysis
 
 ## 📝 License
 
@@ -148,4 +173,4 @@ Built for MBA hackathon demonstrations
 
 ---
 
-**Note**: All ML models run entirely in the browser using TensorFlow.js. No backend required!
+**Note**: All ML models run entirely in the browser using TensorFlow.js. AI insights powered by Groq's cloud LLM API for real-time analysis.

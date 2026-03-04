@@ -47,7 +47,6 @@ function AIChatbot({ results, config }) {
           <span className="groq-badge">⚡ Groq</span>
           <div>
             <strong>AI Market Analyst</strong>
-            <span className="chatbot-subtitle"> · Llama 3.1 · Real-time</span>
           </div>
         </div>
       </div>
