@@ -53,7 +53,7 @@ function App() {
   };
 
   initializeML();
-}, []);
+}, [mlEngine]);
 
   const retrainModel = async () => {
     setMlReady(false);
