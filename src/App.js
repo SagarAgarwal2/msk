@@ -24,10 +24,6 @@ function App() {
   const [results, setResults] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-  initializeML();
-}, [initializeML]);
-
   const initializeML = async () => {
     try {
       // Try IndexedDB first — instant if model was saved before
@@ -51,6 +47,9 @@ function App() {
       console.error('Failed to initialize ML:', error);
     }
   };
+  useEffect(() => {
+    initializeML();
+  }, [initializeML]);
 
   const retrainModel = async () => {
     setMlReady(false);
