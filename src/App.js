@@ -24,10 +24,12 @@ function App() {
   const [results, setResults] = useState(null);
   const [loading, setLoading] = useState(false);
 
+  useEffect(() => {
   const initializeML = async () => {
     try {
       // Try IndexedDB first — instant if model was saved before
       const loaded = await mlEngine.loadModel();
+
       if (loaded) {
         setModelSource('loaded');
       } else {
@@ -35,6 +37,7 @@ function App() {
         await mlEngine.trainPurchaseModel();
         setModelSource('trained');
       }
+
       setModelAccuracy(mlEngine.accuracy);
       setMlReady(true);
 
@@ -43,13 +46,14 @@ function App() {
       console.log(report.summary);
       console.log('Details:', report.details);
       console.log('Interpretation:', report.interpretation);
+
     } catch (error) {
       console.error('Failed to initialize ML:', error);
     }
   };
-  useEffect(() => {
-    initializeML();
-  }, [initializeML]);
+
+  initializeML();
+}, []);
 
   const retrainModel = async () => {
     setMlReady(false);
