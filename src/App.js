@@ -25,8 +25,8 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    initializeML();
-  }, []);
+  initializeML();
+}, [initializeML]);
 
   const initializeML = async () => {
     try {

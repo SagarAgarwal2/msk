@@ -158,4 +158,5 @@ User question: ${question}
   }
 }
 
-export default new GroqService();
+const groqService = new GroqService();
+export default groqService;

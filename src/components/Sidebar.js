@@ -120,6 +120,10 @@ function Sidebar({ config, setConfig, onRunSimulation, mlReady, loading, modelSo
           </button>
         </div>
       </div>
+      
+      <div className={statusClass}>
+        {statusText()}
+       </div>
 
       <button
         className="run-btn"
